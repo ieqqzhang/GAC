@@ -251,7 +251,7 @@ class GAC(SeqAbstractRecommender):
                 b_ij = tf.constant(
                     np.zeros([self.batch_size, input.shape[1].value, self.num_outputs_secondCaps, 1, 1],
                              dtype=np.float32))
-                b_IJ = tf.nn.embedding_lookup(b_ij, tf.shape(input_R)[0])  # [b, d, num_outputs_secondCaps, 1, 1]
+                b_IJ = tf.nn.embedding_lookup(b_ij, tf.shape(input_R)[0])
                 capsules = self.routing(input_R, b_IJ, batch_size=self.batch_size_b, iter_routing=self.iter_routing2,
                                         num_caps_i=self.seq_L, num_caps_j=self.num_outputs_secondCaps,
                                         len_u_i=self.factors_num,
