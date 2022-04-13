@@ -1,5 +1,5 @@
 # GAC
-This is our Tensorflow implementation for our Knowledge-Based Systems 2022 paper and a part of baselines:
+This is a Tensorflow implementation for our Knowledge-Based Systems 2022 paper and a part of baselines:
 
 >Qi Zhang, Bin Wu, Zhongchuan Sun, Yangdong Ye*(2022).
 
