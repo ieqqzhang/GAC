@@ -1,7 +1,7 @@
 # GAC
-This is our Tensorflow implementation for our Knowledge-Based Systems 2021 paper(under review) and a part of baselines:
+This is our Tensorflow implementation for our Knowledge-Based Systems 2022 paper and a part of baselines:
 
->Qi Zhang, Bin Wu, Zhongchuan Sun, Yangdong Ye(2021).
+>Qi Zhang, Bin Wu, Zhongchuan Sun, Yangdong Ye*(2022).
 
 ## Environment Requirement
 The code has been tested running under Python 3.6.5. The required packages are as follows:
