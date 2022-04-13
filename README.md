@@ -18,21 +18,3 @@ python setup.py build_ext --inplace
 If the compilation is successful, the evaluator of cpp implementation will be called automatically.
 Otherwise, the evaluator of python implementation will be called.
 NOTE: The cpp implementation is much faster than python.**
-
-## Examples to run GAC:
-run [main.py](./main.py) in IDE or with command line:
-```
-python main.py
-```
-
-## Baselines
-The list of available models in GAC, along with their paper citations, are shown below:
-
-| General Recommender | Paper                                                                                                         |
-|---------------------|---------------------------------------------------------------------------------------------------------------|
-| BPRMF               | Steffen Rendle et al., BPR: Bayesian Personalized Ranking from Implicit Feedback. UAI 2009.                   |
-
-| Sequential Recommender | Paper                                                                                                      |
-|------------------------|------------------------------------------------------------------------------------------------------------|
-| FPMC                   | Steffen Rendle et al., Factorizing Personalized Markov Chains for Next-Basket Recommendation, WWW 2010.    |
-| SASRec                 | Wangcheng Kang et al., Self-Attentive Sequential Recommendation, ICDM 2018.                                |
